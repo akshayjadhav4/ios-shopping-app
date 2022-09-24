@@ -11,6 +11,7 @@
 		DBEBAE6F28DF1DB700538849 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEBAE6E28DF1DB700538849 /* ContentView.swift */; };
 		DBEBAE7128DF1DBA00538849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEBAE7028DF1DBA00538849 /* Assets.xcassets */; };
 		DBEBAE7428DF1DBA00538849 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEBAE7328DF1DBA00538849 /* Preview Assets.xcassets */; };
+		DBEBAE7C28DF24D700538849 /* OnBoardingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEBAE7B28DF24D700538849 /* OnBoardingScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DBEBAE6E28DF1DB700538849 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DBEBAE7028DF1DBA00538849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBEBAE7328DF1DBA00538849 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBEBAE7B28DF24D700538849 /* OnBoardingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				DBEBAE6C28DF1DB700538849 /* shoppingAppApp.swift */,
+				DBEBAE7B28DF24D700538849 /* OnBoardingScreenView.swift */,
 				DBEBAE6E28DF1DB700538849 /* ContentView.swift */,
 				DBEBAE7028DF1DBA00538849 /* Assets.xcassets */,
 				DBEBAE7228DF1DBA00538849 /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBEBAE7C28DF24D700538849 /* OnBoardingScreenView.swift in Sources */,
 				DBEBAE6F28DF1DB700538849 /* ContentView.swift in Sources */,
 				DBEBAE6D28DF1DB700538849 /* shoppingAppApp.swift in Sources */,
 			);
