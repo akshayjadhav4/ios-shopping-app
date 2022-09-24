@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  OnBoardingScreenView.swift
 //  shoppingApp
 //
 //  Created by Akshay Anil Jadhav on 24/09/22.
@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct OnBoardingScreenView: View {
     var body: some View {
-        OnBoardingScreenView()
+        Text("On Boarding screen View")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct OnBoardingScreenView_Previews: PreviewProvider {
     static var previews: some View {
         OnBoardingScreenView()
     }

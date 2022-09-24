@@ -12,6 +12,7 @@
 		DBEBAE7128DF1DBA00538849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEBAE7028DF1DBA00538849 /* Assets.xcassets */; };
 		DBEBAE7428DF1DBA00538849 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEBAE7328DF1DBA00538849 /* Preview Assets.xcassets */; };
 		DBEBAE7C28DF24D700538849 /* OnBoardingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEBAE7B28DF24D700538849 /* OnBoardingScreenView.swift */; };
+		DBEBAE7F28DF254A00538849 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEBAE7E28DF254A00538849 /* HomeScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		DBEBAE7028DF1DBA00538849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBEBAE7328DF1DBA00538849 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DBEBAE7B28DF24D700538849 /* OnBoardingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreenView.swift; sourceTree = "<group>"; };
+		DBEBAE7E28DF254A00538849 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		DBEBAE6B28DF1DB700538849 /* shoppingApp */ = {
 			isa = PBXGroup;
 			children = (
+				DBEBAE7D28DF252200538849 /* HomeScreenViews */,
 				DBEBAE6C28DF1DB700538849 /* shoppingAppApp.swift */,
 				DBEBAE7B28DF24D700538849 /* OnBoardingScreenView.swift */,
 				DBEBAE6E28DF1DB700538849 /* ContentView.swift */,
@@ -68,6 +71,14 @@
 				DBEBAE7328DF1DBA00538849 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBEBAE7D28DF252200538849 /* HomeScreenViews */ = {
+			isa = PBXGroup;
+			children = (
+				DBEBAE7E28DF254A00538849 /* HomeScreenView.swift */,
+			);
+			path = HomeScreenViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +154,7 @@
 				DBEBAE7C28DF24D700538849 /* OnBoardingScreenView.swift in Sources */,
 				DBEBAE6F28DF1DB700538849 /* ContentView.swift in Sources */,
 				DBEBAE6D28DF1DB700538849 /* shoppingAppApp.swift in Sources */,
+				DBEBAE7F28DF254A00538849 /* HomeScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
