@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-let image: FruitModel = FruitModel(id: 1, tilte: .apple, image: "apple", price: "3.44$", color: "LightPink")
+let image: FruitModel = FruitModel(id: 1, title: .apple, image: "apple", price: "3.44$", color: "LightPink")
 
 struct FruitCardView: View {
     let fruit: FruitModel
     var body: some View {
         ZStack {
             VStack(alignment: .leading, spacing: 5) {
-                Text(fruit.tilte.rawValue)
+                Text(fruit.title.rawValue)
                     .fontWeight(.bold)
                     .font(.system(.title3))
                     .foregroundColor(.black)

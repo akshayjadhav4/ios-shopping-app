@@ -10,7 +10,7 @@ import Foundation
 
 struct FruitModel {
     var id: Int
-    var tilte: FruitTilte
+    var title: FruitTilte
     var image: String
     var price: String
     var color: String
