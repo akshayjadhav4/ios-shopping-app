@@ -56,13 +56,14 @@ struct DetailsView: View {
                     .edgesIgnoringSafeArea(.top)
                     .clipShape(RoundedCornerShape.init(corners: [.bottomLeft,.bottomRight], radius: 50))
                     .frame(width: .infinity, height: .infinity, alignment: .top)
+                    .edgesIgnoringSafeArea(.all)
                     .shadow(color: .gray, radius: 5, x: 5, y: 5)
                     .overlay(
                         Image("\(fruit.rawValue)")
                             .resizable()
                             .frame(width: 250, height: 250, alignment: .center)
                             .shadow(color: .gray, radius: 5, x: 5, y: 5)
-                            .offset(y:50)
+                            
                     )
                     
                 Spacer()
